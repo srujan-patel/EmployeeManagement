@@ -1,0 +1,12 @@
+C:\Users\E978122\Desktop\EmployeeManagement\EmployeeManagement\Shared\bin\Debug\net6.0\EmployeeManagement.Shared.deps.json
+C:\Users\E978122\Desktop\EmployeeManagement\EmployeeManagement\Shared\bin\Debug\net6.0\EmployeeManagement.Shared.dll
+C:\Users\E978122\Desktop\EmployeeManagement\EmployeeManagement\Shared\bin\Debug\net6.0\EmployeeManagement.Shared.pdb
+C:\Users\E978122\Desktop\EmployeeManagement\EmployeeManagement\Shared\obj\Debug\net6.0\EmployeeManagement.Shared.csproj.AssemblyReference.cache
+C:\Users\E978122\Desktop\EmployeeManagement\EmployeeManagement\Shared\obj\Debug\net6.0\EmployeeManagement.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\E978122\Desktop\EmployeeManagement\EmployeeManagement\Shared\obj\Debug\net6.0\EmployeeManagement.Shared.AssemblyInfoInputs.cache
+C:\Users\E978122\Desktop\EmployeeManagement\EmployeeManagement\Shared\obj\Debug\net6.0\EmployeeManagement.Shared.AssemblyInfo.cs
+C:\Users\E978122\Desktop\EmployeeManagement\EmployeeManagement\Shared\obj\Debug\net6.0\EmployeeManagement.Shared.csproj.CoreCompileInputs.cache
+C:\Users\E978122\Desktop\EmployeeManagement\EmployeeManagement\Shared\obj\Debug\net6.0\EmployeeManagement.Shared.dll
+C:\Users\E978122\Desktop\EmployeeManagement\EmployeeManagement\Shared\obj\Debug\net6.0\refint\EmployeeManagement.Shared.dll
+C:\Users\E978122\Desktop\EmployeeManagement\EmployeeManagement\Shared\obj\Debug\net6.0\EmployeeManagement.Shared.pdb
+C:\Users\E978122\Desktop\EmployeeManagement\EmployeeManagement\Shared\obj\Debug\net6.0\ref\EmployeeManagement.Shared.dll
