@@ -17,6 +17,7 @@ namespace EmployeeManagement.Client.Pages
 
         public List<Employee> Employees { get; set; }
 
+
         //[Inject]
         //public IEmployeeService EmployeeService { get; set; }
 

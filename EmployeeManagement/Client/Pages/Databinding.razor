@@ -1,0 +1,26 @@
+﻿@page "/databinding"
+@inherits DatabindingBase
+
+<h3>Databinding</h3>
+<b>Name :</b>@Name 
+<div>   
+    <b>Name with salutation </b> @(Gender == "Male" ? $"Mr. {Name}": "Miss {Name}")
+</div>
+
+
+<div>
+<input value="@Name"   @onchange="@(e=> {Name= e.Value.ToString();})"/>
+<input @bind = "Name"/>
+    <input @bind="Name" @bind:event="oninput"/>
+
+</div>
+
+<div>
+    <b> colour:  </b><input @bind ="colour"/>
+</div>
+
+
+
+<div @bind-style ="colour"    @bind-style:event="onchange">
+    <h3> The background color of the image changes </h3>
+</div>
