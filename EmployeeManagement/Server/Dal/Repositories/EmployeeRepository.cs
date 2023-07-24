@@ -21,6 +21,7 @@ namespace EmployeeManagement.Server.Dal.Repositories
         public async Task<Employee> GetEmployee(int employeeId)
         {
             var emp= await _context.Employees
+                //.Include(e=> e.Department)
                 .FirstOrDefaultAsync(e => e.EmployeeId == employeeId);
 
             if (emp == null) return null;

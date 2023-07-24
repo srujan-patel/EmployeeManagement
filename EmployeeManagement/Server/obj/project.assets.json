@@ -627,6 +627,28 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "Microsoft.Extensions.Http/8.0.0-preview.6.23329.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0-preview.6.23329.7",
+          "Microsoft.Extensions.Logging": "8.0.0-preview.6.23329.7",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0-preview.6.23329.7",
+          "Microsoft.Extensions.Options": "8.0.0-preview.6.23329.7"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
       "Microsoft.Extensions.Logging/8.0.0-preview.6.23329.7": {
         "type": "package",
         "dependencies": {
@@ -1373,7 +1395,8 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "EmployeeManagement.Shared": "1.0.0",
-          "Microsoft.AspNetCore.Components.WebAssembly": "6.0.16"
+          "Microsoft.AspNetCore.Components.WebAssembly": "6.0.16",
+          "Microsoft.Extensions.Http": "8.0.0-preview.6.23329.7"
         },
         "compile": {
           "bin/placeholder/EmployeeManagement.Client.dll": {}
@@ -2195,6 +2218,35 @@
         "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.xml",
         "microsoft.extensions.filesystemglobbing.6.0.0.nupkg.sha512",
         "microsoft.extensions.filesystemglobbing.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Http/8.0.0-preview.6.23329.7": {
+      "sha512": "saXE2GTylaBSXhn+YDICCkZaZRftuMXyFotvUof4zwOyx9WlZd9DPFRNY2ibCFVJKodRGBpy5FIqjLtVp2O0kw==",
+      "type": "package",
+      "path": "microsoft.extensions.http/8.0.0-preview.6.23329.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Http.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Http.targets",
+        "lib/net462/Microsoft.Extensions.Http.dll",
+        "lib/net462/Microsoft.Extensions.Http.xml",
+        "lib/net6.0/Microsoft.Extensions.Http.dll",
+        "lib/net6.0/Microsoft.Extensions.Http.xml",
+        "lib/net7.0/Microsoft.Extensions.Http.dll",
+        "lib/net7.0/Microsoft.Extensions.Http.xml",
+        "lib/net8.0/Microsoft.Extensions.Http.dll",
+        "lib/net8.0/Microsoft.Extensions.Http.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Http.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Http.xml",
+        "microsoft.extensions.http.8.0.0-preview.6.23329.7.nupkg.sha512",
+        "microsoft.extensions.http.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
@@ -3623,11 +3675,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\E978122\\Desktop\\employeeManagement\\EmployeeManagement\\Server\\EmployeeManagement.Server.csproj",
+      "projectUniqueName": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Server\\EmployeeManagement.Server.csproj",
       "projectName": "EmployeeManagement.Server",
-      "projectPath": "C:\\Users\\E978122\\Desktop\\employeeManagement\\EmployeeManagement\\Server\\EmployeeManagement.Server.csproj",
+      "projectPath": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Server\\EmployeeManagement.Server.csproj",
       "packagesPath": "C:\\Users\\E978122\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\E978122\\Desktop\\employeeManagement\\EmployeeManagement\\Server\\obj\\",
+      "outputPath": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\E978122\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3645,11 +3697,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\E978122\\Desktop\\employeeManagement\\EmployeeManagement\\Client\\EmployeeManagement.Client.csproj": {
-              "projectPath": "C:\\Users\\E978122\\Desktop\\employeeManagement\\EmployeeManagement\\Client\\EmployeeManagement.Client.csproj"
+            "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\EmployeeManagement.Client.csproj": {
+              "projectPath": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\EmployeeManagement.Client.csproj"
             },
-            "C:\\Users\\E978122\\Desktop\\employeeManagement\\EmployeeManagement\\Shared\\EmployeeManagement.Shared.csproj": {
-              "projectPath": "C:\\Users\\E978122\\Desktop\\employeeManagement\\EmployeeManagement\\Shared\\EmployeeManagement.Shared.csproj"
+            "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Shared\\EmployeeManagement.Shared.csproj": {
+              "projectPath": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Shared\\EmployeeManagement.Shared.csproj"
             }
           }
         }

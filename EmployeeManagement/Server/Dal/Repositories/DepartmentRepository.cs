@@ -19,6 +19,7 @@ namespace EmployeeManagement.Web.Server.Models
 
             var department = appDbContext.Departments
                 .FirstOrDefault(d => d.DepartmentId == departmentId);
+            
             if (department == null)
             {
                 return null;

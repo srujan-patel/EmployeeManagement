@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\E978122\\Desktop\\employeeManagement\\EmployeeManagement\\Shared\\EmployeeManagement.Shared.csproj": {}
+    "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Shared\\EmployeeManagement.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\E978122\\Desktop\\employeeManagement\\EmployeeManagement\\Shared\\EmployeeManagement.Shared.csproj": {
+    "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Shared\\EmployeeManagement.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\E978122\\Desktop\\employeeManagement\\EmployeeManagement\\Shared\\EmployeeManagement.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Shared\\EmployeeManagement.Shared.csproj",
         "projectName": "EmployeeManagement.Shared",
-        "projectPath": "C:\\Users\\E978122\\Desktop\\employeeManagement\\EmployeeManagement\\Shared\\EmployeeManagement.Shared.csproj",
+        "projectPath": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Shared\\EmployeeManagement.Shared.csproj",
         "packagesPath": "C:\\Users\\E978122\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Shared\\obj\\",
         "projectStyle": "PackageReference",

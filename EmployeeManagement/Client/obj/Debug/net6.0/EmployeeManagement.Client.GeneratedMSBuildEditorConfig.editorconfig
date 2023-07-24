@@ -9,29 +9,33 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = EmployeeManagement.Client
 build_property.RootNamespace = EmployeeManagement.Client
-build_property.ProjectDir = C:\Users\E978122\Desktop\employeeManagement\EmployeeManagement\Client\
+build_property.ProjectDir = C:\Users\E978122\Desktop\EmployeeManagement\EmployeeManagement\Client\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\E978122\Desktop\employeeManagement\EmployeeManagement\Client
+build_property.MSBuildProjectDirectory = C:\Users\E978122\Desktop\EmployeeManagement\EmployeeManagement\Client
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/E978122/Desktop/employeeManagement/EmployeeManagement/Client/App.razor]
+[C:/Users/E978122/Desktop/EmployeeManagement/EmployeeManagement/Client/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/E978122/Desktop/employeeManagement/EmployeeManagement/Client/Pages/EmployeeList.razor]
+[C:/Users/E978122/Desktop/EmployeeManagement/EmployeeManagement/Client/Pages/EmployeeDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVEZXRhaWxzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/E978122/Desktop/EmployeeManagement/EmployeeManagement/Client/Pages/EmployeeList.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVMaXN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/E978122/Desktop/employeeManagement/EmployeeManagement/Client/_Imports.razor]
+[C:/Users/E978122/Desktop/EmployeeManagement/EmployeeManagement/Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/E978122/Desktop/employeeManagement/EmployeeManagement/Client/Shared/MainLayout.razor]
+[C:/Users/E978122/Desktop/EmployeeManagement/EmployeeManagement/Client/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-bhk71s0570
 
-[C:/Users/E978122/Desktop/employeeManagement/EmployeeManagement/Client/Shared/NavMenu.razor]
+[C:/Users/E978122/Desktop/EmployeeManagement/EmployeeManagement/Client/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-vv7034nj5y

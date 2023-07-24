@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CUrCayFG33fmr379paHGPEfGs1k0CJjVXIu0IKN0OjxF3BuihaC+K3jhWm0568rBxRVKpCjMU3kWAo3iy4+pmg==",
+  "dgSpecHash": "4bztv7neey4fzSmzWl1TUqMSziN5ZwWgBYfnuRtQIZVzi5/sb/OWZOG9/X6kd51fZasaNajlUdOmMJzr13UA9Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\E978122\\Desktop\\employeeManagement\\EmployeeManagement\\Server\\EmployeeManagement.Server.csproj",
+  "projectFilePath": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Server\\EmployeeManagement.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\E978122\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\E978122\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
@@ -39,6 +39,7 @@
     "C:\\Users\\E978122\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\6.0.0\\microsoft.extensions.fileproviders.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\E978122\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\6.0.0\\microsoft.extensions.fileproviders.physical.6.0.0.nupkg.sha512",
     "C:\\Users\\E978122\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\6.0.0\\microsoft.extensions.filesystemglobbing.6.0.0.nupkg.sha512",
+    "C:\\Users\\E978122\\.nuget\\packages\\microsoft.extensions.http\\8.0.0-preview.6.23329.7\\microsoft.extensions.http.8.0.0-preview.6.23329.7.nupkg.sha512",
     "C:\\Users\\E978122\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0-preview.6.23329.7\\microsoft.extensions.logging.8.0.0-preview.6.23329.7.nupkg.sha512",
     "C:\\Users\\E978122\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0-preview.6.23329.7\\microsoft.extensions.logging.abstractions.8.0.0-preview.6.23329.7.nupkg.sha512",
     "C:\\Users\\E978122\\.nuget\\packages\\microsoft.extensions.options\\8.0.0-preview.6.23329.7\\microsoft.extensions.options.8.0.0-preview.6.23329.7.nupkg.sha512",

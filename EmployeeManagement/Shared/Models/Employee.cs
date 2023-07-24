@@ -21,7 +21,7 @@ namespace EmployeeManagement.Shared.Models
         public Gender gender { get; set; }
         public int DepartmentID { get; set; }
         public string PhotoPath { get; set; }
-
+        public Department Department { get; set; }
     }
 
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\E978122\\Desktop\\employeeManagement\\EmployeeManagement\\Server\\EmployeeManagement.Server.csproj": {}
+    "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Server\\EmployeeManagement.Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\E978122\\Desktop\\employeeManagement\\EmployeeManagement\\Client\\EmployeeManagement.Client.csproj": {
+    "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\EmployeeManagement.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\E978122\\Desktop\\employeeManagement\\EmployeeManagement\\Client\\EmployeeManagement.Client.csproj",
+        "projectUniqueName": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\EmployeeManagement.Client.csproj",
         "projectName": "EmployeeManagement.Client",
-        "projectPath": "C:\\Users\\E978122\\Desktop\\employeeManagement\\EmployeeManagement\\Client\\EmployeeManagement.Client.csproj",
+        "projectPath": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\EmployeeManagement.Client.csproj",
         "packagesPath": "C:\\Users\\E978122\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\E978122\\Desktop\\employeeManagement\\EmployeeManagement\\Client\\obj\\",
+        "outputPath": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\E978122\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\E978122\\Desktop\\employeeManagement\\EmployeeManagement\\Shared\\EmployeeManagement.Shared.csproj": {
-                "projectPath": "C:\\Users\\E978122\\Desktop\\employeeManagement\\EmployeeManagement\\Shared\\EmployeeManagement.Shared.csproj"
+              "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Shared\\EmployeeManagement.Shared.csproj": {
+                "projectPath": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Shared\\EmployeeManagement.Shared.csproj"
               }
             }
           }
@@ -52,6 +52,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.16, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[8.0.0-preview.6.23329.7, )"
             }
           },
           "imports": [
@@ -85,14 +89,14 @@
         }
       }
     },
-    "C:\\Users\\E978122\\Desktop\\employeeManagement\\EmployeeManagement\\Server\\EmployeeManagement.Server.csproj": {
+    "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Server\\EmployeeManagement.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\E978122\\Desktop\\employeeManagement\\EmployeeManagement\\Server\\EmployeeManagement.Server.csproj",
+        "projectUniqueName": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Server\\EmployeeManagement.Server.csproj",
         "projectName": "EmployeeManagement.Server",
-        "projectPath": "C:\\Users\\E978122\\Desktop\\employeeManagement\\EmployeeManagement\\Server\\EmployeeManagement.Server.csproj",
+        "projectPath": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Server\\EmployeeManagement.Server.csproj",
         "packagesPath": "C:\\Users\\E978122\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\E978122\\Desktop\\employeeManagement\\EmployeeManagement\\Server\\obj\\",
+        "outputPath": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\E978122\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -110,11 +114,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\E978122\\Desktop\\employeeManagement\\EmployeeManagement\\Client\\EmployeeManagement.Client.csproj": {
-                "projectPath": "C:\\Users\\E978122\\Desktop\\employeeManagement\\EmployeeManagement\\Client\\EmployeeManagement.Client.csproj"
+              "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\EmployeeManagement.Client.csproj": {
+                "projectPath": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\EmployeeManagement.Client.csproj"
               },
-              "C:\\Users\\E978122\\Desktop\\employeeManagement\\EmployeeManagement\\Shared\\EmployeeManagement.Shared.csproj": {
-                "projectPath": "C:\\Users\\E978122\\Desktop\\employeeManagement\\EmployeeManagement\\Shared\\EmployeeManagement.Shared.csproj"
+              "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Shared\\EmployeeManagement.Shared.csproj": {
+                "projectPath": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Shared\\EmployeeManagement.Shared.csproj"
               }
             }
           }
@@ -167,12 +171,12 @@
         }
       }
     },
-    "C:\\Users\\E978122\\Desktop\\employeeManagement\\EmployeeManagement\\Shared\\EmployeeManagement.Shared.csproj": {
+    "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Shared\\EmployeeManagement.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\E978122\\Desktop\\employeeManagement\\EmployeeManagement\\Shared\\EmployeeManagement.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Shared\\EmployeeManagement.Shared.csproj",
         "projectName": "EmployeeManagement.Shared",
-        "projectPath": "C:\\Users\\E978122\\Desktop\\employeeManagement\\EmployeeManagement\\Shared\\EmployeeManagement.Shared.csproj",
+        "projectPath": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Shared\\EmployeeManagement.Shared.csproj",
         "packagesPath": "C:\\Users\\E978122\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Shared\\obj\\",
         "projectStyle": "PackageReference",

@@ -389,6 +389,20 @@
         }
       },
       "Microsoft.Extensions.FileSystemGlobbing/6.0.0": {},
+      "Microsoft.Extensions.Http/8.0.0-preview.6.23329.7": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0-preview.6.23329.7",
+          "Microsoft.Extensions.Logging": "8.0.0-preview.6.23329.7",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0-preview.6.23329.7",
+          "Microsoft.Extensions.Options": "8.0.0-preview.6.23329.7"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Http.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.32907"
+          }
+        }
+      },
       "Microsoft.Extensions.Logging/8.0.0-preview.6.23329.7": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "8.0.0-preview.6.23329.7",
@@ -796,7 +810,8 @@
       "EmployeeManagement.Client/1.0.0": {
         "dependencies": {
           "EmployeeManagement.Shared": "1.0.0",
-          "Microsoft.AspNetCore.Components.WebAssembly": "6.0.16"
+          "Microsoft.AspNetCore.Components.WebAssembly": "6.0.16",
+          "Microsoft.Extensions.Http": "8.0.0-preview.6.23329.7"
         },
         "runtime": {
           "EmployeeManagement.Client.dll": {}
@@ -1059,6 +1074,13 @@
       "sha512": "sha512-ip8jnL1aPiaPeKINCqaTEbvBFDmVx9dXQEBZ2HOBRXPD1eabGNqP/bKlsIcp7U2lGxiXd5xIhoFcmY8nM4Hdiw==",
       "path": "microsoft.extensions.filesystemglobbing/6.0.0",
       "hashPath": "microsoft.extensions.filesystemglobbing.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Http/8.0.0-preview.6.23329.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-saXE2GTylaBSXhn+YDICCkZaZRftuMXyFotvUof4zwOyx9WlZd9DPFRNY2ibCFVJKodRGBpy5FIqjLtVp2O0kw==",
+      "path": "microsoft.extensions.http/8.0.0-preview.6.23329.7",
+      "hashPath": "microsoft.extensions.http.8.0.0-preview.6.23329.7.nupkg.sha512"
     },
     "Microsoft.Extensions.Logging/8.0.0-preview.6.23329.7": {
       "type": "package",
