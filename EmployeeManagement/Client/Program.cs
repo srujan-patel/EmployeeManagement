@@ -8,6 +8,8 @@ builder.RootComponents.Add<App>("#app");
 builder.RootComponents.Add<HeadOutlet>("head::after");
 
 builder.Services.AddHttpClient<IEmployeeService, EmployeeService>(Client => Client.BaseAddress = new Uri(builder.HostEnvironment.BaseAddress));
+builder.Services.AddHttpClient<IDepartmentService, DepartmentService>(Client => Client.BaseAddress = new Uri(builder.HostEnvironment.BaseAddress));
+
 
 //builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 

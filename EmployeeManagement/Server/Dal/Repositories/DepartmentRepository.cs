@@ -1,6 +1,7 @@
 ﻿using EmployeeManagement.Server.Dal;
 using EmployeeManagement.Server.Dal.Repositories;
 using EmployeeManagement.Shared.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace EmployeeManagement.Web.Server.Models
 {
@@ -14,24 +15,24 @@ namespace EmployeeManagement.Web.Server.Models
             this.appDbContext = appDbContext;
         }
 
-        public Department GetDepartment(int departmentId)
+
+        public async Task<Department> GetDepartment(int departmentId)
         {
-
-            var department = appDbContext.Departments
-                .FirstOrDefault(d => d.DepartmentId == departmentId);
-            
-            if (department == null)
-            {
-                return null;
-            }
-
-            return department;
+            return await appDbContext.Departments
+                .FirstOrDefaultAsync(d => d.DepartmentId == departmentId);
         }
 
-        public IEnumerable<Department> GetDepartments()
+        public async Task<IEnumerable<Department>> GetDepartments()
         {
-            return appDbContext.Departments;
+            return await appDbContext.Departments.ToListAsync();
         }
 
+
+        public async Task<Department> AddDepartment(Department Department)
+        {
+            var result = await appDbContext.Departments.AddAsync(Department);
+            await appDbContext.SaveChangesAsync();
+            return result.Entity;
+        }
     }
 }

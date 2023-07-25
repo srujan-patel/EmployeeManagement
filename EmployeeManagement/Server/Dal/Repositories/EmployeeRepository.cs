@@ -36,6 +36,8 @@ namespace EmployeeManagement.Server.Dal.Repositories
             return result.Entity;
         }
 
+
+
         public async Task<Employee> UpdateEmployee(Employee employee)
         {
             var result = await _context.Employees
