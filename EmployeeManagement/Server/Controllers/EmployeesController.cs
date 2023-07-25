@@ -53,6 +53,13 @@ namespace EmployeeManagement.Web.Server.Controllers
             {
                 if (employee == null)
                     return BadRequest();
+                var emp = await _employeeRepository.GetEmployeebyEmail(employee.Email);
+                
+                if (emp != null)
+                {
+                    ModelState.AddModelError("email", "Employee Already in Use");
+                    return BadRequest(ModelState);
+                }
 
                 var createdEmployee = await _employeeRepository.AddEmployee(employee);
 
