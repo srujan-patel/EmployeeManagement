@@ -11,11 +11,12 @@ namespace EmployeeManagement.Shared.Models
     public class Employee
     {
         public int EmployeeId { get; set; }
-        [Required]
+        [Required(ErrorMessage ="FirstName must be provided")]
         [MinLength(3)]
         public string FirstName { get; set; }
         [Required]
         public string LastName { get; set; }
+        [EmailAddress]
         public string Email { get; set; }
         public DateTime DateofBirth { get; set; }
         public Gender gender { get; set; }

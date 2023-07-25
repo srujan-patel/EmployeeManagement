@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "y6q8GNeQeRH1hgQ/2zOjh3xyFIWqujp3m87QQUcUVMI=",
+  "Hash": "TJLLyphaonjKDb0UZDRk0wZC+RvPwgYt0UYE61lPfhM=",
   "Source": "EmployeeManagement.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -16,6 +16,40 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\AutoMapper.dll",
+      "SourceId": "EmployeeManagement.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/AutoMapper.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\E978122\\.nuget\\packages\\automapper\\12.0.1\\lib\\netstandard2.1\\AutoMapper.dll"
+    },
+    {
+      "Identity": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\AutoMapper.Extensions.Microsoft.DependencyInjection.dll",
+      "SourceId": "EmployeeManagement.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/AutoMapper.Extensions.Microsoft.DependencyInjection.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\E978122\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\lib\\netstandard2.1\\AutoMapper.Extensions.Microsoft.DependencyInjection.dll"
+    },
     {
       "Identity": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.boot.json",
       "SourceId": "EmployeeManagement.Client",
@@ -253,6 +287,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\E978122\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.16\\lib\\net6.0\\Microsoft.AspNetCore.Authorization.dll"
+    },
+    {
+      "Identity": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.DataAnnotations.Validation.dll",
+      "SourceId": "EmployeeManagement.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.DataAnnotations.Validation.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\E978122\\.nuget\\packages\\microsoft.aspnetcore.components.dataannotations.validation\\3.2.0-rc1.20223.4\\lib\\netstandard2.1\\Microsoft.AspNetCore.Components.DataAnnotations.Validation.dll"
     },
     {
       "Identity": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
@@ -4250,6 +4301,23 @@
       "OriginalItemSpec": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.Abstractions.dll"
     },
     {
+      "Identity": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\obj\\Debug\\net6.0\\build-gz\\Bd8ZG+E9.gz",
+      "SourceId": "EmployeeManagement.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/AutoMapper.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\AutoMapper.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\AutoMapper.dll"
+    },
+    {
       "Identity": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\obj\\Debug\\net6.0\\build-gz\\Birm6u5h.gz",
       "SourceId": "EmployeeManagement.Client",
       "SourceType": "Computed",
@@ -5389,6 +5457,23 @@
       "OriginalItemSpec": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Text.RegularExpressions.dll"
     },
     {
+      "Identity": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\obj\\Debug\\net6.0\\build-gz\\MAvRmGem.gz",
+      "SourceId": "EmployeeManagement.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/AutoMapper.Extensions.Microsoft.DependencyInjection.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\AutoMapper.Extensions.Microsoft.DependencyInjection.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\AutoMapper.Extensions.Microsoft.DependencyInjection.dll"
+    },
+    {
       "Identity": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\obj\\Debug\\net6.0\\build-gz\\MFj+8EmE.gz",
       "SourceId": "EmployeeManagement.Client",
       "SourceType": "Computed",
@@ -6441,6 +6526,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Security.Cryptography.Encoding.dll"
+    },
+    {
+      "Identity": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\obj\\Debug\\net6.0\\build-gz\\voKx4J7S.gz",
+      "SourceId": "EmployeeManagement.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.DataAnnotations.Validation.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.DataAnnotations.Validation.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.DataAnnotations.Validation.dll"
     },
     {
       "Identity": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\obj\\Debug\\net6.0\\build-gz\\vRLL7eqz.gz",

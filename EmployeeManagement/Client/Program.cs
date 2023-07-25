@@ -1,4 +1,5 @@
 using EmployeeManagement.Client;
+using EmployeeManagement.Client.Models;
 using EmployeeManagement.Client.Srevices;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
@@ -9,7 +10,7 @@ builder.RootComponents.Add<HeadOutlet>("head::after");
 
 builder.Services.AddHttpClient<IEmployeeService, EmployeeService>(Client => Client.BaseAddress = new Uri(builder.HostEnvironment.BaseAddress));
 builder.Services.AddHttpClient<IDepartmentService, DepartmentService>(Client => Client.BaseAddress = new Uri(builder.HostEnvironment.BaseAddress));
-
+builder.Services.AddAutoMapper(typeof(EmployeeProfile));
 
 //builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 

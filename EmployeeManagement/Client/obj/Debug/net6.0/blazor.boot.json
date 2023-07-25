@@ -7,8 +7,11 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
+      "AutoMapper.dll": "sha256-IPLECjhzAo5JapVuuAB\/ZT5OGwiSRZEKxtY7EMNCH38=",
+      "AutoMapper.Extensions.Microsoft.DependencyInjection.dll": "sha256-RFmP6C+\/wYl1ISrVBekC+K2zrBwqPDUwvi8dVw+tiUY=",
       "Microsoft.AspNetCore.Authorization.dll": "sha256-aDNthpcgReHLCzS5ZT\/PJDirLd6siorRIngHWOCUfd4=",
       "Microsoft.AspNetCore.Components.dll": "sha256-QuQEF2UMucn5Vmy5DaA1xMY5DutdB0QhPYbnza2JJJ0=",
+      "Microsoft.AspNetCore.Components.DataAnnotations.Validation.dll": "sha256-VGaB03HIjFg4jeK7BomIFzlhhY3vW5N+jWuRqZkbJsY=",
       "Microsoft.AspNetCore.Components.Forms.dll": "sha256-PCqolrqn+eWfQ\/KIakpqOwLmo9t9cThQzzpZ7dr+SjA=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-HJq4+3Qg5eiYk\/JyTPmtr2NFJz+E9+HhSyddNQaPGoI=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-Vq9zvYcuIlv6Fbw3WnkV+If5lwew8YbaFwkDYYfjNGA=",
@@ -197,15 +200,15 @@
       "mscorlib.dll": "sha256-R1JlsouwIAVx0f4j8Ku8nSgx9UWnoKc26EJSnZko6MY=",
       "netstandard.dll": "sha256-8Ej3VOdrj8ijDcTS0\/1AEMpisaFDe3Nmj0Fbq5sfZEk=",
       "System.Private.CoreLib.dll": "sha256-tqFypIfntE2p16olQ2cI4rklqWNJqsPJvAoPSChg0H0=",
-      "EmployeeManagement.Shared.dll": "sha256-jnn6SCbgsUF4CqSOpCEmq6IDFSxVX4rE9kT7Vdf4XzY=",
-      "EmployeeManagement.Client.dll": "sha256-MRIaeSxahEgassIcB1hJGBK1SL6O7wdzbiYfGvNr2B8="
+      "EmployeeManagement.Shared.dll": "sha256-Ohi29SMfksau8O7fcgyEGYl7LrBmrjQy5mp9TsB9jkw=",
+      "EmployeeManagement.Client.dll": "sha256-wwhHAMMv8qjI3\/vK\/t3XOWRI\/lx2SHUmJD3FBOYIKBk="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "EmployeeManagement.Shared.pdb": "sha256-re43Kkg+DrtTb8mom1OA6dHfrxwWdVFx0aXfmkBsz4Y=",
-      "EmployeeManagement.Client.pdb": "sha256-y3iOPaxQpH6xDGTDD05BdL0BxYTFJo92qyRaMOwwxn4="
+      "EmployeeManagement.Shared.pdb": "sha256-VDFeT3d96psBBOKKkZJUCrRO3kA3RvzDs8Oo+eBdO6c=",
+      "EmployeeManagement.Client.pdb": "sha256-zDaZuwEDhrrnRYJ8CSw27FTBKW9\/9DyU3jhw5P\/TCtk="
     },
     "runtime": {
       "dotnet.6.0.18.b34e24vzpa.js": "sha256-Iww31ANFa3KZuR4RkhiSYt3FJ7PKpMdeFNq3l3Td1h8=",
