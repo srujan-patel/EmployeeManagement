@@ -27,6 +27,8 @@ namespace EmployeeManagement.Client.Pages
             Employees = (await  EmployeeService.GetEmployees()).ToList();
         }
 
+
+
         protected int SelectedEmployeesCount { get; set; } = 0;
 
         protected void EmployeeSelectionChanged(bool isSelected)
@@ -39,6 +41,12 @@ namespace EmployeeManagement.Client.Pages
             {
                 SelectedEmployeesCount--;
             }
+        }
+
+
+        protected async Task EmployeeDeleted()
+        {
+            Employees= (await EmployeeService.GetEmployees()).ToList();
         }
 
     }

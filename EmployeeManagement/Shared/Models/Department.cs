@@ -11,7 +11,6 @@ namespace EmployeeManagement.Shared.Models
     {
 
         public int DepartmentId { get; set; }
-        [Required]
         public string DepartmentName { get; set; }
 
     }

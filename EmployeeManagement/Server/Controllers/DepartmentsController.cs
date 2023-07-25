@@ -66,10 +66,10 @@ namespace EmployeeManagement.Server.Controllers
                 return CreatedAtAction(nameof(GetDepartment),
                     new { id = createdDepartment.DepartmentId }, createdDepartment);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 return StatusCode(StatusCodes.Status500InternalServerError,
-                    "Error creating new Department record");
+                    ex.Message);
             }
         }
 

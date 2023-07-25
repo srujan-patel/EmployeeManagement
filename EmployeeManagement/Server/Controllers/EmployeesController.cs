@@ -47,50 +47,34 @@ namespace EmployeeManagement.Web.Server.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<Employee>> CreateEmployee(Employee employee)
+        public async Task<ActionResult<Employee>> CreateEmployee([FromBody] Employee employee)
         {
             try
             {
                 if (employee == null)
                     return BadRequest();
 
-                var emp = _employeeRepository.GetEmployeebyEmail(employee.Email);
-
-                if (emp != null)
-                {
-                    ModelState.AddModelError("email", "Employee Already in Use");
-                    return BadRequest(ModelState);
-                }
-
                 var createdEmployee = await _employeeRepository.AddEmployee(employee);
 
                 return CreatedAtAction(nameof(GetEmployee),
                     new { id = createdEmployee.EmployeeId }, createdEmployee);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 return StatusCode(StatusCodes.Status500InternalServerError,
-                    "Error creating new employee record");
+                    ex.Message);
             }
         }
 
 
-        [HttpPut("{id:int}")]
-        public async Task<ActionResult<Employee>> UpdateEmployee(int id, Employee employee)
+        [HttpPut]
+        public async Task<ActionResult<Employee>> UpdateEmployee([FromBody] Employee employee)
         {
 
             try
             {
 
-                if (id != employee.EmployeeId)
-                {
-
-                    return BadRequest("Employee ID Mismatch");
-
-                }
-
-
-                var employeeToUpdate= await _employeeRepository.GetEmployee(id);
+                var employeeToUpdate= await _employeeRepository.GetEmployee(employee.EmployeeId);
                 if (employeeToUpdate == null)
                 {
                     return NotFound();
