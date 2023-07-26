@@ -1435,11 +1435,25 @@
           }
         }
       },
+      "ClassLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "6.0.16"
+        },
+        "compile": {
+          "bin/placeholder/ClassLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassLibrary.dll": {}
+        }
+      },
       "EmployeeManagement.Client/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
+          "ClassLibrary": "1.0.0",
           "EmployeeManagement.Shared": "1.0.0",
           "Microsoft.AspNetCore.Components.DataAnnotations.Validation": "3.2.0-rc1.20223.4",
           "Microsoft.AspNetCore.Components.WebAssembly": "6.0.16",
@@ -3740,6 +3754,11 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "ClassLibrary/1.0.0": {
+      "type": "project",
+      "path": "../../ClassLibrary/ClassLibrary.csproj",
+      "msbuildProject": "../../ClassLibrary/ClassLibrary.csproj"
     },
     "EmployeeManagement.Client/1.0.0": {
       "type": "project",

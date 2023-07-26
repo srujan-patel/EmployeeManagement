@@ -200,15 +200,17 @@
       "mscorlib.dll": "sha256-R1JlsouwIAVx0f4j8Ku8nSgx9UWnoKc26EJSnZko6MY=",
       "netstandard.dll": "sha256-8Ej3VOdrj8ijDcTS0\/1AEMpisaFDe3Nmj0Fbq5sfZEk=",
       "System.Private.CoreLib.dll": "sha256-tqFypIfntE2p16olQ2cI4rklqWNJqsPJvAoPSChg0H0=",
+      "ClassLibrary.dll": "sha256-3zGMVhKxVq4Y+HapBTO0MvqQDOGXFVFk3y0l1c3CoJ0=",
       "EmployeeManagement.Shared.dll": "sha256-bPe6rppiEMbktS09pGyT3Oqc7ZQwrwBBxvb03sZt40c=",
-      "EmployeeManagement.Client.dll": "sha256-awEmalEpmKcMH9dxAFhWC97Wk1qA6PT4U\/QPXw+dBN0="
+      "EmployeeManagement.Client.dll": "sha256-BjFFdorFoZdskVr37q3wqa+Noj5PryeZot++lOr\/700="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
+      "ClassLibrary.pdb": "sha256-GPx+hFjATbGxphMR8foUMkeofrGFJRvZ41fc0cyqFVs=",
       "EmployeeManagement.Shared.pdb": "sha256-\/gFJtRgk5tZqGsFFFp7uaAb8ui5slh5kfU+JwpKIxks=",
-      "EmployeeManagement.Client.pdb": "sha256-Sc3qUR1RFecxBTr7Mtm0YcN2wV\/g4qQYOLG7nFbvQso="
+      "EmployeeManagement.Client.pdb": "sha256-uwAw9m2O1xpYy83eSNebhLRveWIUAYE4cw8rVWzRBpw="
     },
     "runtime": {
       "dotnet.6.0.18.b34e24vzpa.js": "sha256-Iww31ANFa3KZuR4RkhiSYt3FJ7PKpMdeFNq3l3Td1h8=",

@@ -1,11 +1,22 @@
 {
   "Version": 1,
-  "Hash": "wbsHzN6sTCVPnu+kDpL6xmiNyklKS4P8lza3dPGqtJ0=",
+  "Hash": "nKfoo1yszMarP8stiiTwcSis9e543XSetXp+9UV63/8=",
   "Source": "EmployeeManagement.Server",
   "BasePath": "_content/EmployeeManagement.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\ClassLibrary\\ClassLibrary.csproj",
+      "Version": 2,
+      "Source": "ClassLibrary",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    },
     {
       "Identity": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\EmployeeManagement.Client.csproj",
       "Version": 2,
@@ -20,6 +31,13 @@
   ],
   "DiscoveryPatterns": [
     {
+      "Name": "ClassLibrary\\wwwroot",
+      "Source": "ClassLibrary",
+      "ContentRoot": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\ClassLibrary\\wwwroot\\",
+      "BasePath": "_content/ClassLibrary",
+      "Pattern": "**"
+    },
+    {
       "Name": "EmployeeManagement.Client\\wwwroot",
       "Source": "EmployeeManagement.Client",
       "ContentRoot": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\wwwroot\\",
@@ -28,6 +46,57 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\ClassLibrary\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ClassLibrary.bundle.scp.css",
+      "SourceId": "ClassLibrary",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\ClassLibrary\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/ClassLibrary",
+      "RelativePath": "ClassLibrary.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\ClassLibrary\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ClassLibrary.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\ClassLibrary\\wwwroot\\background.png",
+      "SourceId": "ClassLibrary",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\ClassLibrary\\wwwroot\\",
+      "BasePath": "_content/ClassLibrary",
+      "RelativePath": "background.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\background.png"
+    },
+    {
+      "Identity": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\ClassLibrary\\wwwroot\\exampleJsInterop.js",
+      "SourceId": "ClassLibrary",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\ClassLibrary\\wwwroot\\",
+      "BasePath": "_content/ClassLibrary",
+      "RelativePath": "exampleJsInterop.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\exampleJsInterop.js"
+    },
     {
       "Identity": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\AutoMapper.dll",
       "SourceId": "EmployeeManagement.Client",
@@ -95,6 +164,40 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\E978122\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\6.0.16\\build\\net6.0\\blazor.webassembly.js"
+    },
+    {
+      "Identity": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\ClassLibrary.dll",
+      "SourceId": "EmployeeManagement.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/ClassLibrary.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\ClassLibrary\\bin\\Debug\\net6.0\\ClassLibrary.dll"
+    },
+    {
+      "Identity": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\ClassLibrary.pdb",
+      "SourceId": "EmployeeManagement.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/ClassLibrary.pdb",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "symbol",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\ClassLibrary\\bin\\Debug\\net6.0\\ClassLibrary.pdb"
     },
     {
       "Identity": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\dotnet.6.0.18.b34e24vzpa.js",
@@ -6829,6 +6932,23 @@
       "OriginalItemSpec": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.Abstractions.dll"
     },
     {
+      "Identity": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\obj\\Debug\\net6.0\\build-gz\\XPatNwkN.gz",
+      "SourceId": "EmployeeManagement.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/ClassLibrary.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\ClassLibrary.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\ClassLibrary.dll"
+    },
+    {
       "Identity": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\obj\\Debug\\net6.0\\build-gz\\xWJ9HLhA.gz",
       "SourceId": "EmployeeManagement.Client",
       "SourceType": "Project",
@@ -7014,6 +7134,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Text.Encodings.Web.dll"
+    },
+    {
+      "Identity": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\obj\\Debug\\net6.0\\build-gz\\ztzqVYOE.gz",
+      "SourceId": "EmployeeManagement.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/ClassLibrary.pdb.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\ClassLibrary.pdb",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\ClassLibrary.pdb"
     },
     {
       "Identity": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Client\\obj\\Debug\\net6.0\\scopedcss\\bundle\\EmployeeManagement.Client.styles.css",
@@ -7354,6 +7491,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Server\\obj\\Debug\\net6.0\\scopedcss\\bundle\\EmployeeManagement.Server.styles.css",
+      "SourceId": "EmployeeManagement.Server",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Server\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/EmployeeManagement.Server",
+      "RelativePath": "EmployeeManagement.Server.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Server\\obj\\Debug\\net6.0\\scopedcss\\bundle\\EmployeeManagement.Server.styles.css"
     }
   ]
 }

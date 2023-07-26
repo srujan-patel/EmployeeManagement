@@ -108,3 +108,6 @@ C:\Users\E978122\Desktop\EmployeeManagement\EmployeeManagement\Server\bin\Debug\
 C:\Users\E978122\Desktop\EmployeeManagement\EmployeeManagement\Server\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\E978122\Desktop\EmployeeManagement\EmployeeManagement\Server\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\E978122\Desktop\EmployeeManagement\EmployeeManagement\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Components.DataAnnotations.Validation.dll
+C:\Users\E978122\Desktop\EmployeeManagement\EmployeeManagement\Server\bin\Debug\net6.0\ClassLibrary.staticwebassets.runtime.json
+C:\Users\E978122\Desktop\EmployeeManagement\EmployeeManagement\Server\bin\Debug\net6.0\ClassLibrary.dll
+C:\Users\E978122\Desktop\EmployeeManagement\EmployeeManagement\Server\bin\Debug\net6.0\ClassLibrary.pdb

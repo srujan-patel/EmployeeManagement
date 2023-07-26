@@ -15,6 +15,8 @@ namespace EmployeeManagement.Client.Pages
         [Parameter]
         public EventCallback<bool> OnEmployeeSelection { get; set; }
 
+      
+
         [Parameter]
         public EventCallback<int> OnEmployeeDeletion { get; set; }
 
@@ -23,6 +25,8 @@ namespace EmployeeManagement.Client.Pages
 
         [Inject]
         public IEmployeeService EmployeeService { get; set; }
+
+        protected ClassLibrary.ConfirmBase DeleteConfirmation { get; set; }
 
         protected async Task CBChanged(ChangeEventArgs e)
         {
@@ -33,10 +37,26 @@ namespace EmployeeManagement.Client.Pages
 
         }
 
-        protected async Task DeleteClick()
+
+        protected async Task ConfirmDelete_Click(bool deleteConfirmed)
         {
-           await EmployeeService.DeleteEmployee(Employee.EmployeeId);
-            await OnEmployeeDeletion.InvokeAsync(Employee.EmployeeId);
+            if (deleteConfirmed)
+            {
+
+                await EmployeeService.DeleteEmployee(Employee.EmployeeId);
+                await OnEmployeeDeletion.InvokeAsync(Employee.EmployeeId);
+
+                //NavigationManager.NavigateTo("/", true);
+
+
+
+            }
+        }
+
+
+        protected void DeleteClick()
+        {
+           DeleteConfirmation.Show();
 
             //NavigationManager.NavigateTo("/", true);
 

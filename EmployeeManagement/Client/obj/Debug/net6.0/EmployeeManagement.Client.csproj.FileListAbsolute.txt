@@ -842,3 +842,12 @@ C:\Users\E978122\Desktop\EmployeeManagement\EmployeeManagement\Client\bin\Debug\
 C:\Users\E978122\Desktop\EmployeeManagement\EmployeeManagement\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.DataAnnotations.Validation.dll.gz
 C:\Users\E978122\Desktop\EmployeeManagement\EmployeeManagement\Client\bin\Debug\net6.0\Microsoft.AspNetCore.Components.DataAnnotations.Validation.dll
 C:\Users\E978122\Desktop\EmployeeManagement\EmployeeManagement\Client\obj\Debug\net6.0\build-gz\voKx4J7S.gz
+C:\Users\E978122\Desktop\EmployeeManagement\EmployeeManagement\Client\bin\Debug\net6.0\wwwroot\_framework\ClassLibrary.dll
+C:\Users\E978122\Desktop\EmployeeManagement\EmployeeManagement\Client\bin\Debug\net6.0\wwwroot\_framework\ClassLibrary.pdb
+C:\Users\E978122\Desktop\EmployeeManagement\EmployeeManagement\Client\bin\Debug\net6.0\wwwroot\_framework\ClassLibrary.dll.gz
+C:\Users\E978122\Desktop\EmployeeManagement\EmployeeManagement\Client\bin\Debug\net6.0\wwwroot\_framework\ClassLibrary.pdb.gz
+C:\Users\E978122\Desktop\EmployeeManagement\EmployeeManagement\Client\bin\Debug\net6.0\ClassLibrary.staticwebassets.runtime.json
+C:\Users\E978122\Desktop\EmployeeManagement\EmployeeManagement\Client\bin\Debug\net6.0\ClassLibrary.dll
+C:\Users\E978122\Desktop\EmployeeManagement\EmployeeManagement\Client\bin\Debug\net6.0\ClassLibrary.pdb
+C:\Users\E978122\Desktop\EmployeeManagement\EmployeeManagement\Client\obj\Debug\net6.0\build-gz\XPatNwkN.gz
+C:\Users\E978122\Desktop\EmployeeManagement\EmployeeManagement\Client\obj\Debug\net6.0\build-gz\ztzqVYOE.gz

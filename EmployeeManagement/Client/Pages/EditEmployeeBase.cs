@@ -34,6 +34,9 @@ namespace EmployeeManagement.Client.Pages
         public IMapper Mapper { get; set; }
 
 
+        protected ClassLibrary.ConfirmBase DeleteConfirmation { get; set; }
+
+
         protected async override Task OnInitializedAsync()
         {
             int.TryParse(Id, out int employeeID);
@@ -87,11 +90,24 @@ namespace EmployeeManagement.Client.Pages
 
         }
 
+        protected async Task ConfirmDelete_Click(bool deleteConfirmed)
+        {
+            if (deleteConfirmed)
+            {
+                await EmployeeService.DeleteEmployee(Employee.EmployeeId);
+                NavigationManager.NavigateTo("/");
+                //await EmployeeService.DeleteEmployee(Employee.EmployeeId);
+                //await OnEmployeeDeletion.InvokeAsync(Employee.EmployeeId);
+
+                //NavigationManager.NavigateTo("/", true);
+
+
+
+            }
+        }
         protected async Task Delete_Click()
         {
-            await EmployeeService.DeleteEmployee(Employee.EmployeeId);
-            NavigationManager.NavigateTo("/");
-
+            DeleteConfirmation.Show();
         }
     }
 }

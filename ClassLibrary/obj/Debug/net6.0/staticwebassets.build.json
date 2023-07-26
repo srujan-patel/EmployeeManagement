@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "wZ/28fOz952tbZu3nIBQADwEjEAptpfgdIPkvDU7xZE=",
+  "Source": "ClassLibrary",
+  "BasePath": "_content/ClassLibrary",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ClassLibrary\\wwwroot",
+      "Source": "ClassLibrary",
+      "ContentRoot": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\ClassLibrary\\wwwroot\\",
+      "BasePath": "_content/ClassLibrary",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\ClassLibrary\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ClassLibrary.styles.css",
+      "SourceId": "ClassLibrary",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\ClassLibrary\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/ClassLibrary",
+      "RelativePath": "ClassLibrary.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\ClassLibrary\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ClassLibrary.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\ClassLibrary\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ClassLibrary.bundle.scp.css",
+      "SourceId": "ClassLibrary",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\ClassLibrary\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/ClassLibrary",
+      "RelativePath": "ClassLibrary.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\ClassLibrary\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ClassLibrary.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\ClassLibrary\\wwwroot\\background.png",
+      "SourceId": "ClassLibrary",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\ClassLibrary\\wwwroot\\",
+      "BasePath": "_content/ClassLibrary",
+      "RelativePath": "background.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\background.png"
+    },
+    {
+      "Identity": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\ClassLibrary\\wwwroot\\exampleJsInterop.js",
+      "SourceId": "ClassLibrary",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\ClassLibrary\\wwwroot\\",
+      "BasePath": "_content/ClassLibrary",
+      "RelativePath": "exampleJsInterop.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\exampleJsInterop.js"
+    }
+  ]
+}

@@ -562,6 +562,19 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "ClassLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "6.0.16"
+        },
+        "compile": {
+          "bin/placeholder/ClassLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassLibrary.dll": {}
+        }
+      },
       "EmployeeManagement.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1126,6 +1139,19 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "ClassLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "6.0.16"
+        },
+        "compile": {
+          "bin/placeholder/ClassLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassLibrary.dll": {}
         }
       },
       "EmployeeManagement.Shared/1.0.0": {
@@ -2088,6 +2114,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "ClassLibrary/1.0.0": {
+      "type": "project",
+      "path": "../../ClassLibrary/ClassLibrary.csproj",
+      "msbuildProject": "../../ClassLibrary/ClassLibrary.csproj"
+    },
     "EmployeeManagement.Shared/1.0.0": {
       "type": "project",
       "path": "../Shared/EmployeeManagement.Shared.csproj",
@@ -2097,6 +2128,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
+      "ClassLibrary >= 1.0.0",
       "EmployeeManagement.Shared >= 1.0.0",
       "Microsoft.AspNetCore.Components.DataAnnotations.Validation >= 3.2.0-rc1.20223.4",
       "Microsoft.AspNetCore.Components.WebAssembly >= 6.0.16",
@@ -2131,6 +2163,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\ClassLibrary\\ClassLibrary.csproj": {
+              "projectPath": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\ClassLibrary\\ClassLibrary.csproj"
+            },
             "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Shared\\EmployeeManagement.Shared.csproj": {
               "projectPath": "C:\\Users\\E978122\\Desktop\\EmployeeManagement\\EmployeeManagement\\Shared\\EmployeeManagement.Shared.csproj"
             }
